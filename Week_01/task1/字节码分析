@@ -1,0 +1,108 @@
+Classfile /F:/Coding/java/geektraining/target/classes/sky/week01/Hello.class
+  Last modified 2020-10-19; size 610 bytes
+  MD5 checksum 356bdf03dec993128991ad2e7fa9c892
+  Compiled from "Hello.java"
+public class sky.week01.Hello
+  minor version: 0
+  major version: 49
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #5.#23         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #24.#25        // java/lang/System.out:Ljava/io/PrintStream;
+   #3 = Methodref          #26.#27        // java/io/PrintStream.println:(I)V
+   #4 = Class              #28            // sky/week01/Hello
+   #5 = Class              #29            // java/lang/Object
+   #6 = Utf8               <init>
+   #7 = Utf8               ()V
+   #8 = Utf8               Code
+   #9 = Utf8               LineNumberTable
+  #10 = Utf8               LocalVariableTable
+  #11 = Utf8               this
+  #12 = Utf8               Lsky/week01/Hello;
+  #13 = Utf8               main
+  #14 = Utf8               ([Ljava/lang/String;)V
+  #15 = Utf8               i
+  #16 = Utf8               I
+  #17 = Utf8               args
+  #18 = Utf8               [Ljava/lang/String;
+  #19 = Utf8               a
+  #20 = Utf8               b
+  #21 = Utf8               SourceFile
+  #22 = Utf8               Hello.java
+  #23 = NameAndType        #6:#7          // "<init>":()V
+  #24 = Class              #30            // java/lang/System
+  #25 = NameAndType        #31:#32        // out:Ljava/io/PrintStream;
+  #26 = Class              #33            // java/io/PrintStream
+  #27 = NameAndType        #34:#35        // println:(I)V
+  #28 = Utf8               sky/week01/Hello
+  #29 = Utf8               java/lang/Object
+  #30 = Utf8               java/lang/System
+  #31 = Utf8               out
+  #32 = Utf8               Ljava/io/PrintStream;
+  #33 = Utf8               java/io/PrintStream
+  #34 = Utf8               println
+  #35 = Utf8               (I)V
+{
+  public sky.week01.Hello();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 3: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lsky/week01/Hello;
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=4, args_size=1
+         0: iconst_1                          // 将int类型常量值1压入栈
+         1: istore_1                          // 弹栈，并将栈顶值存入局部变量表槽位1
+         2: iconst_3                          // 将int类型常量值3压入栈
+         3: istore_2                          // 弹栈，并将栈顶值存入局部变量表槽位2
+         4: iconst_0                          // 将int类型常量值0压入栈
+         5: istore_3                          // 弹栈，并将栈顶值存入局部变量表槽位3
+         6: iload_3                           // 将槽位3的int类型值压入栈
+         7: iload_2                           // 将槽位2的int类型值压入栈
+         8: if_icmpge     21                  // 比较栈顶两位，如果栈顶-1位大于等于栈顶值则跳到第21步继续执行
+        11: iload_1                           // 将槽位1的int类型值压入栈
+        12: iload_3                           // 将槽位3的int类型值压入栈
+        13: iadd                              // 将栈顶两位int类型相加作为新的栈顶值
+        14: istore_1                          // 弹栈，并将栈顶值存入局部变量表槽位1
+        15: iinc          3, 1                // 将槽位3的int类型值加1
+        18: goto          6                   // 跳到第6步继续
+        21: iconst_4                          // 将int类型常量值4压入栈
+        22: iload_1                           // 将槽位1的int类型值压入栈
+        23: if_icmpne     31                  // 如果栈顶值不等于栈顶-1值则跳到第31步继续执行
+        26: iload_1                           // 将槽位1的int类型值压入栈
+        27: bipush        6                   // 将int类型常量值6压入栈
+        29: iadd                              // 将栈顶两位相加
+        30: istore_1                          // 弹栈，并将栈顶值存入局部变量表槽位1
+        31: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream; 获取系统打印静态类
+        34: iload_1                           // 将槽位1的int类型值压入栈
+        35: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V 调用打印函数
+        38: return                            // 返回
+      LineNumberTable:
+        line 5: 0
+        line 6: 2
+        line 7: 4
+        line 8: 11
+        line 7: 15
+        line 10: 21
+        line 11: 26
+        line 13: 31
+        line 14: 38
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            6      15     3     i   I
+            0      39     0  args   [Ljava/lang/String;
+            2      37     1     a   I
+            4      35     2     b   I
+}
+SourceFile: "Hello.java"
