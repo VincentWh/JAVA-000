@@ -1,0 +1,137 @@
+256m
+
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for windows-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 19:14:59 by "" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 16727784k(5132116k free), swap 30359272k(12763316k free)
+CommandLine flags: -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=268435456 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2020-10-28T21:16:19.267+0800: 0.179: [GC (Allocation Failure) 2020-10-28T21:16:19.267+0800: 0.179: [DefNew: 69952K->8704K(78656K), 0.0278621 secs] 69952K->26176K(253440K), 0.0280529 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+2020-10-28T21:16:19.315+0800: 0.227: [GC (Allocation Failure) 2020-10-28T21:16:19.315+0800: 0.227: [DefNew: 78656K->8695K(78656K), 0.0232794 secs] 96128K->50967K(253440K), 0.0233943 secs] [Times: user=0.00 sys=0.02, real=0.02 secs] 
+2020-10-28T21:16:19.349+0800: 0.262: [GC (Allocation Failure) 2020-10-28T21:16:19.350+0800: 0.262: [DefNew: 78647K->8699K(78656K), 0.0221693 secs] 120919K->76097K(253440K), 0.0223167 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2020-10-28T21:16:19.383+0800: 0.295: [GC (Allocation Failure) 2020-10-28T21:16:19.383+0800: 0.295: [DefNew: 78651K->8703K(78656K), 0.0197757 secs] 146049K->101990K(253440K), 0.0199375 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2020-10-28T21:16:19.414+0800: 0.326: [GC (Allocation Failure) 2020-10-28T21:16:19.414+0800: 0.326: [DefNew: 78655K->8700K(78656K), 0.0166633 secs] 171942K->123969K(253440K), 0.0167508 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2020-10-28T21:16:19.443+0800: 0.355: [GC (Allocation Failure) 2020-10-28T21:16:19.443+0800: 0.355: [DefNew: 78652K->8703K(78656K), 0.0153157 secs] 193921K->143294K(253440K), 0.0154008 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:19.469+0800: 0.380: [GC (Allocation Failure) 2020-10-28T21:16:19.469+0800: 0.380: [DefNew: 78655K->8700K(78656K), 0.0190309 secs] 213246K->167639K(253440K), 0.0191283 secs] [Times: user=0.00 sys=0.03, real=0.02 secs] 
+2020-10-28T21:16:19.498+0800: 0.410: [GC (Allocation Failure) 2020-10-28T21:16:19.498+0800: 0.410: [DefNew: 78281K->78281K(78656K), 0.0000194 secs]2020-10-28T21:16:19.498+0800: 0.410: [Tenured: 158938K->161516K(174784K), 0.0315455 secs] 237219K->161516K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0316809 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2020-10-28T21:16:19.542+0800: 0.453: [GC (Allocation Failure) 2020-10-28T21:16:19.542+0800: 0.453: [DefNew: 69952K->69952K(78656K), 0.0000216 secs]2020-10-28T21:16:19.542+0800: 0.453: [Tenured: 161516K->171271K(174784K), 0.0361264 secs] 231468K->171271K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0362868 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2020-10-28T21:16:19.588+0800: 0.500: [GC (Allocation Failure) 2020-10-28T21:16:19.588+0800: 0.500: [DefNew: 69900K->69900K(78656K), 0.0000200 secs]2020-10-28T21:16:19.588+0800: 0.500: [Tenured: 171271K->174396K(174784K), 0.0378737 secs] 241171K->188659K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0380173 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2020-10-28T21:16:19.638+0800: 0.550: [Full GC (Allocation Failure) 2020-10-28T21:16:19.639+0800: 0.550: [Tenured: 174734K->174660K(174784K), 0.0516554 secs] 253374K->188889K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0518780 secs] [Times: user=0.06 sys=0.00, real=0.05 secs] 
+2020-10-28T21:16:19.702+0800: 0.613: [Full GC (Allocation Failure) 2020-10-28T21:16:19.702+0800: 0.613: [Tenured: 174660K->174340K(174784K), 0.0116548 secs] 253259K->209385K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0118146 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:19.721+0800: 0.633: [Full GC (Allocation Failure) 2020-10-28T21:16:19.721+0800: 0.633: [Tenured: 174556K->174717K(174784K), 0.0345711 secs] 253155K->216024K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0347343 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2020-10-28T21:16:19.763+0800: 0.675: [Full GC (Allocation Failure) 2020-10-28T21:16:19.763+0800: 0.675: [Tenured: 174717K->174636K(174784K), 0.0290806 secs] 253297K->222652K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0292896 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2020-10-28T21:16:19.797+0800: 0.709: [Full GC (Allocation Failure) 2020-10-28T21:16:19.797+0800: 0.709: [Tenured: 174636K->174567K(174784K), 0.0432364 secs] 253227K->218557K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0433842 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2020-10-28T21:16:19.847+0800: 0.759: [Full GC (Allocation Failure) 2020-10-28T21:16:19.847+0800: 0.759: [Tenured: 174567K->174567K(174784K), 0.0075269 secs] 252560K->224978K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0077220 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:19.859+0800: 0.770: [Full GC (Allocation Failure) 2020-10-28T21:16:19.859+0800: 0.770: [Tenured: 174711K->174621K(174784K), 0.0126958 secs] 253360K->233429K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0128187 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:19.873+0800: 0.785: [Full GC (Allocation Failure) 2020-10-28T21:16:19.873+0800: 0.785: [Tenured: 174621K->174542K(174784K), 0.0252105 secs] 252985K->237153K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0253452 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2020-10-28T21:16:19.902+0800: 0.813: [Full GC (Allocation Failure) 2020-10-28T21:16:19.902+0800: 0.813: [Tenured: 174542K->174593K(174784K), 0.0453893 secs] 253185K->230970K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0454971 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2020-10-28T21:16:19.950+0800: 0.863: [Full GC (Allocation Failure) 2020-10-28T21:16:19.950+0800: 0.863: [Tenured: 174593K->174593K(174784K), 0.0095527 secs] 252980K->238840K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0096793 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:19.963+0800: 0.875: [Full GC (Allocation Failure) 2020-10-28T21:16:19.963+0800: 0.875: [Tenured: 174593K->174593K(174784K), 0.0123503 secs] 253160K->243991K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0124814 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:19.977+0800: 0.889: [Full GC (Allocation Failure) 2020-10-28T21:16:19.977+0800: 0.889: [Tenured: 174593K->174593K(174784K), 0.0121903 secs] 253007K->245848K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0122905 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:19.990+0800: 0.902: [Full GC (Allocation Failure) 2020-10-28T21:16:19.990+0800: 0.903: [Tenured: 174593K->174768K(174784K), 0.0500712 secs] 253156K->240895K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0501974 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2020-10-28T21:16:20.043+0800: 0.955: [Full GC (Allocation Failure) 2020-10-28T21:16:20.043+0800: 0.955: [Tenured: 174768K->174768K(174784K), 0.0118783 secs] 253314K->244222K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0120440 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:20.056+0800: 0.968: [Full GC (Allocation Failure) 2020-10-28T21:16:20.056+0800: 0.968: [Tenured: 174768K->174768K(174784K), 0.0161961 secs] 253374K->247308K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0163569 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2020-10-28T21:16:20.073+0800: 0.986: [Full GC (Allocation Failure) 2020-10-28T21:16:20.074+0800: 0.986: [Tenured: 174768K->174768K(174784K), 0.0154702 secs] 253367K->248775K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0156542 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2020-10-28T21:16:20.090+0800: 1.002: [Full GC (Allocation Failure) 2020-10-28T21:16:20.091+0800: 1.002: [Tenured: 174768K->174444K(174784K), 0.0758491 secs] 253313K->244247K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0760514 secs] [Times: user=0.08 sys=0.00, real=0.08 secs] 
+2020-10-28T21:16:20.169+0800: 1.081: [Full GC (Allocation Failure) 2020-10-28T21:16:20.169+0800: 1.081: [Tenured: 174734K->174734K(174784K), 0.0095093 secs] 253312K->247321K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0097235 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:20.181+0800: 1.092: [Full GC (Allocation Failure) 2020-10-28T21:16:20.181+0800: 1.093: [Tenured: 174734K->174734K(174784K), 0.0158773 secs] 253231K->250623K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0160616 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2020-10-28T21:16:20.197+0800: 1.109: [Full GC (Allocation Failure) 2020-10-28T21:16:20.197+0800: 1.109: [Tenured: 174734K->174734K(174784K), 0.0060116 secs] 253206K->251001K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0061330 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2020-10-28T21:16:20.204+0800: 1.116: [Full GC (Allocation Failure) 2020-10-28T21:16:20.204+0800: 1.116: [Tenured: 174734K->174612K(174784K), 0.0479413 secs] 253004K->246788K(253440K), [Metaspace: 2638K->2638K(1056768K)], 0.0480403 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+Heap
+ def new generation   total 78656K, used 72867K [0x00000000f0000000, 0x00000000f5550000, 0x00000000f5550000)
+  eden space 69952K, 100% used [0x00000000f0000000, 0x00000000f4450000, 0x00000000f4450000)
+  from space 8704K,  33% used [0x00000000f4cd0000, 0x00000000f4fa8d88, 0x00000000f5550000)
+  to   space 8704K,   0% used [0x00000000f4450000, 0x00000000f4450000, 0x00000000f4cd0000)
+ tenured generation   total 174784K, used 174612K [0x00000000f5550000, 0x0000000100000000, 0x0000000100000000)
+   the space 174784K,  99% used [0x00000000f5550000, 0x00000000fffd5370, 0x00000000fffd5400, 0x0000000100000000)
+ Metaspace       used 2645K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 291K, capacity 386K, committed 512K, reserved 1048576K
+
+====================================================================================================================================================================================================================================
+512m
+
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for windows-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 19:14:59 by "" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 16727784k(5832300k free), swap 30359272k(13039568k free)
+CommandLine flags: -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2020-10-28T21:20:16.209+0800: 0.203: [GC (Allocation Failure) 2020-10-28T21:20:16.210+0800: 0.203: [DefNew: 139776K->17471K(157248K), 0.0324655 secs] 139776K->46748K(506816K), 0.0326970 secs] [Times: user=0.01 sys=0.02, real=0.03 secs] 
+2020-10-28T21:20:16.265+0800: 0.259: [GC (Allocation Failure) 2020-10-28T21:20:16.265+0800: 0.259: [DefNew: 157247K->17471K(157248K), 0.0421232 secs] 186524K->90565K(506816K), 0.0422224 secs] [Times: user=0.02 sys=0.03, real=0.04 secs] 
+2020-10-28T21:20:16.331+0800: 0.325: [GC (Allocation Failure) 2020-10-28T21:20:16.331+0800: 0.325: [DefNew: 157247K->17471K(157248K), 0.0401566 secs] 230341K->136378K(506816K), 0.0402610 secs] [Times: user=0.02 sys=0.01, real=0.04 secs] 
+2020-10-28T21:20:16.391+0800: 0.385: [GC (Allocation Failure) 2020-10-28T21:20:16.391+0800: 0.385: [DefNew: 157247K->17471K(157248K), 0.0372146 secs] 276154K->181707K(506816K), 0.0373174 secs] [Times: user=0.01 sys=0.02, real=0.04 secs] 
+2020-10-28T21:20:16.450+0800: 0.443: [GC (Allocation Failure) 2020-10-28T21:20:16.450+0800: 0.443: [DefNew: 157247K->17471K(157248K), 0.0332960 secs] 321483K->225531K(506816K), 0.0334490 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2020-10-28T21:20:16.508+0800: 0.502: [GC (Allocation Failure) 2020-10-28T21:20:16.508+0800: 0.502: [DefNew: 157247K->17472K(157248K), 0.0324475 secs] 365307K->267903K(506816K), 0.0325719 secs] [Times: user=0.01 sys=0.02, real=0.03 secs] 
+2020-10-28T21:20:16.561+0800: 0.555: [GC (Allocation Failure) 2020-10-28T21:20:16.561+0800: 0.555: [DefNew: 157248K->17467K(157248K), 0.0556183 secs] 407679K->316543K(506816K), 0.0557203 secs] [Times: user=0.03 sys=0.03, real=0.06 secs] 
+2020-10-28T21:20:16.637+0800: 0.631: [GC (Allocation Failure) 2020-10-28T21:20:16.637+0800: 0.631: [DefNew: 157210K->157210K(157248K), 0.0000212 secs]2020-10-28T21:20:16.637+0800: 0.631: [Tenured: 299075K->263778K(349568K), 0.0454375 secs] 456286K->263778K(506816K), [Metaspace: 2638K->2638K(1056768K)], 0.0455964 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2020-10-28T21:20:16.704+0800: 0.698: [GC (Allocation Failure) 2020-10-28T21:20:16.704+0800: 0.698: [DefNew: 139776K->17469K(157248K), 0.0085467 secs] 403554K->309874K(506816K), 0.0086566 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2020-10-28T21:20:16.733+0800: 0.727: [GC (Allocation Failure) 2020-10-28T21:20:16.733+0800: 0.727: [DefNew: 157245K->17471K(157248K), 0.0330460 secs] 449650K->356684K(506816K), 0.0331556 secs] [Times: user=0.03 sys=0.01, real=0.03 secs] 
+2020-10-28T21:20:16.787+0800: 0.781: [GC (Allocation Failure) 2020-10-28T21:20:16.787+0800: 0.781: [DefNew: 157247K->157247K(157248K), 0.0000362 secs]2020-10-28T21:20:16.787+0800: 0.781: [Tenured: 339213K->303147K(349568K), 0.0539958 secs] 496460K->303147K(506816K), [Metaspace: 2638K->2638K(1056768K)], 0.0541684 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2020-10-28T21:20:16.862+0800: 0.857: [GC (Allocation Failure) 2020-10-28T21:20:16.862+0800: 0.857: [DefNew: 139776K->139776K(157248K), 0.0000342 secs]2020-10-28T21:20:16.862+0800: 0.857: [Tenured: 303147K->316733K(349568K), 0.0558717 secs] 442923K->316733K(506816K), [Metaspace: 2638K->2638K(1056768K)], 0.0560340 secs] [Times: user=0.05 sys=0.00, real=0.06 secs] 
+2020-10-28T21:20:16.940+0800: 0.934: [GC (Allocation Failure) 2020-10-28T21:20:16.940+0800: 0.934: [DefNew: 139776K->139776K(157248K), 0.0000188 secs]2020-10-28T21:20:16.940+0800: 0.934: [Tenured: 316733K->305771K(349568K), 0.0586486 secs] 456509K->305771K(506816K), [Metaspace: 2638K->2638K(1056768K)], 0.0587864 secs] [Times: user=0.05 sys=0.00, real=0.06 secs] 
+2020-10-28T21:20:17.021+0800: 1.015: [GC (Allocation Failure) 2020-10-28T21:20:17.021+0800: 1.015: [DefNew: 139434K->17469K(157248K), 0.0082272 secs] 445205K->349451K(506816K), 0.0083303 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2020-10-28T21:20:17.051+0800: 1.045: [GC (Allocation Failure) 2020-10-28T21:20:17.051+0800: 1.045: [DefNew: 157245K->157245K(157248K), 0.0000417 secs]2020-10-28T21:20:17.051+0800: 1.045: [Tenured: 331981K->341054K(349568K), 0.0637848 secs] 489227K->341054K(506816K), [Metaspace: 2638K->2638K(1056768K)], 0.0639927 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+Heap
+ def new generation   total 157248K, used 6331K [0x00000000e0000000, 0x00000000eaaa0000, 0x00000000eaaa0000)
+  eden space 139776K,   4% used [0x00000000e0000000, 0x00000000e062eeb8, 0x00000000e8880000)
+  from space 17472K,   0% used [0x00000000e8880000, 0x00000000e8880000, 0x00000000e9990000)
+  to   space 17472K,   0% used [0x00000000e9990000, 0x00000000e9990000, 0x00000000eaaa0000)
+ tenured generation   total 349568K, used 341054K [0x00000000eaaa0000, 0x0000000100000000, 0x0000000100000000)
+   the space 349568K,  97% used [0x00000000eaaa0000, 0x00000000ff7af9e8, 0x00000000ff7afa00, 0x0000000100000000)
+ Metaspace       used 2645K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 291K, capacity 386K, committed 512K, reserved 1048576K
+
+====================================================================================================================================================================================================================================
+1g
+
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for windows-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 19:14:59 by "" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 16727784k(6117036k free), swap 30359272k(13044132k free)
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2020-10-28T21:21:26.349+0800: 0.287: [GC (Allocation Failure) 2020-10-28T21:21:26.350+0800: 0.287: [DefNew: 279616K->34944K(314560K), 0.0550171 secs] 279616K->85691K(1013632K), 0.0552398 secs] [Times: user=0.02 sys=0.03, real=0.06 secs] 
+2020-10-28T21:21:26.453+0800: 0.391: [GC (Allocation Failure) 2020-10-28T21:21:26.453+0800: 0.391: [DefNew: 314560K->34943K(314560K), 0.0720872 secs] 365307K->164102K(1013632K), 0.0721968 secs] [Times: user=0.03 sys=0.03, real=0.07 secs] 
+2020-10-28T21:21:26.569+0800: 0.507: [GC (Allocation Failure) 2020-10-28T21:21:26.570+0800: 0.507: [DefNew: 314559K->34943K(314560K), 0.0577516 secs] 443718K->240219K(1013632K), 0.0578654 secs] [Times: user=0.02 sys=0.05, real=0.06 secs] 
+2020-10-28T21:21:26.669+0800: 0.607: [GC (Allocation Failure) 2020-10-28T21:21:26.669+0800: 0.607: [DefNew: 314385K->34943K(314560K), 0.0587268 secs] 519662K->312434K(1013632K), 0.0588518 secs] [Times: user=0.05 sys=0.01, real=0.06 secs] 
+2020-10-28T21:21:26.767+0800: 0.704: [GC (Allocation Failure) 2020-10-28T21:21:26.767+0800: 0.704: [DefNew: 314559K->34942K(314560K), 0.0633926 secs] 592050K->398490K(1013632K), 0.0635284 secs] [Times: user=0.05 sys=0.02, real=0.06 secs] 
+2020-10-28T21:21:26.869+0800: 0.807: [GC (Allocation Failure) 2020-10-28T21:21:26.870+0800: 0.807: [DefNew: 314558K->34943K(314560K), 0.0647962 secs] 678106K->475274K(1013632K), 0.0649547 secs] [Times: user=0.06 sys=0.00, real=0.07 secs] 
+2020-10-28T21:21:26.983+0800: 0.921: [GC (Allocation Failure) 2020-10-28T21:21:26.983+0800: 0.921: [DefNew: 314559K->34944K(314560K), 0.0844528 secs] 754890K->553832K(1013632K), 0.0845975 secs] [Times: user=0.00 sys=0.09, real=0.08 secs] 
+2020-10-28T21:21:27.107+0800: 1.045: [GC (Allocation Failure) 2020-10-28T21:21:27.107+0800: 1.045: [DefNew: 314560K->34943K(314560K), 0.0744611 secs] 833448K->640338K(1013632K), 0.0745961 secs] [Times: user=0.02 sys=0.06, real=0.08 secs] 
+Heap
+ def new generation   total 314560K, used 46491K [0x00000000c0000000, 0x00000000d5550000, 0x00000000d5550000)
+  eden space 279616K,   4% used [0x00000000c0000000, 0x00000000c0b46e48, 0x00000000d1110000)
+  from space 34944K,  99% used [0x00000000d1110000, 0x00000000d332ff80, 0x00000000d3330000)
+  to   space 34944K,   0% used [0x00000000d3330000, 0x00000000d3330000, 0x00000000d5550000)
+ tenured generation   total 699072K, used 605394K [0x00000000d5550000, 0x0000000100000000, 0x0000000100000000)
+   the space 699072K,  86% used [0x00000000d5550000, 0x00000000fa484b30, 0x00000000fa484c00, 0x0000000100000000)
+ Metaspace       used 2645K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 291K, capacity 386K, committed 512K, reserved 1048576K
+
+====================================================================================================================================================================================================================================
+2g
+
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for windows-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 19:14:59 by "" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 16727784k(6121556k free), swap 30359272k(13050932k free)
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2020-10-28T21:22:03.984+0800: 0.450: [GC (Allocation Failure) 2020-10-28T21:22:03.984+0800: 0.450: [DefNew: 559232K->69887K(629120K), 0.1009569 secs] 559232K->158146K(2027264K), 0.1012369 secs] [Times: user=0.03 sys=0.08, real=0.10 secs] 
+2020-10-28T21:22:04.176+0800: 0.642: [GC (Allocation Failure) 2020-10-28T21:22:04.176+0800: 0.642: [DefNew: 629119K->69888K(629120K), 0.1263369 secs] 717378K->284675K(2027264K), 0.1264411 secs] [Times: user=0.03 sys=0.08, real=0.13 secs] 
+2020-10-28T21:22:04.387+0800: 0.854: [GC (Allocation Failure) 2020-10-28T21:22:04.387+0800: 0.854: [DefNew: 629120K->69888K(629120K), 0.0908769 secs] 843907K->401689K(2027264K), 0.0909944 secs] [Times: user=0.05 sys=0.05, real=0.09 secs] 
+2020-10-28T21:22:04.557+0800: 1.024: [GC (Allocation Failure) 2020-10-28T21:22:04.557+0800: 1.024: [DefNew: 629120K->69887K(629120K), 0.1122987 secs] 960921K->536428K(2027264K), 0.1123989 secs] [Times: user=0.03 sys=0.08, real=0.11 secs] 
+Heap
+ def new generation   total 629120K, used 92721K [0x0000000080000000, 0x00000000aaaa0000, 0x00000000aaaa0000)
+  eden space 559232K,   4% used [0x0000000080000000, 0x000000008164c600, 0x00000000a2220000)
+  from space 69888K,  99% used [0x00000000a2220000, 0x00000000a665fff8, 0x00000000a6660000)
+  to   space 69888K,   0% used [0x00000000a6660000, 0x00000000a6660000, 0x00000000aaaa0000)
+ tenured generation   total 1398144K, used 466540K [0x00000000aaaa0000, 0x0000000100000000, 0x0000000100000000)
+   the space 1398144K,  33% used [0x00000000aaaa0000, 0x00000000c723b148, 0x00000000c723b200, 0x0000000100000000)
+ Metaspace       used 2645K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 291K, capacity 386K, committed 512K, reserved 1048576K
+
+====================================================================================================================================================================================================================================
+4g
+
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for windows-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 19:14:59 by "" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 16727784k(6119812k free), swap 30359272k(13042548k free)
+CommandLine flags: -XX:InitialHeapSize=4294967296 -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2020-10-28T21:22:41.798+0800: 0.863: [GC (Allocation Failure) 2020-10-28T21:22:41.798+0800: 0.863: [DefNew: 1118528K->139776K(1258304K), 0.1633731 secs] 1118528K->244583K(4054528K), 0.1635753 secs] [Times: user=0.06 sys=0.09, real=0.16 secs] 
+Heap
+ def new generation   total 1258304K, used 980665K [0x00000006c0000000, 0x0000000715550000, 0x0000000715550000)
+  eden space 1118528K,  75% used [0x00000006c0000000, 0x00000006f352e770, 0x0000000704450000)
+  from space 139776K, 100% used [0x000000070ccd0000, 0x0000000715550000, 0x0000000715550000)
+  to   space 139776K,   0% used [0x0000000704450000, 0x0000000704450000, 0x000000070ccd0000)
+ tenured generation   total 2796224K, used 104807K [0x0000000715550000, 0x00000007c0000000, 0x00000007c0000000)
+   the space 2796224K,   3% used [0x0000000715550000, 0x000000071bba9e20, 0x000000071bbaa000, 0x00000007c0000000)
+ Metaspace       used 2645K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 291K, capacity 386K, committed 512K, reserved 1048576K
